@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body {
+    background-image: url(https://i.fbcd.co/products/original/00-7a673a1eaa79a7327975c81114a77949d906bb0f9c5072ca9f01a23a0bc54574.jpg);
+    background-position: ;
+    background-size: cover;
+    height: 100vh;
+  }
+  header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    float:right;
+    padding: 10px 100px;
+   
+    position: fixed;
+
+  
+    background: rbga(0,0,0,0.2);
+    
+  }
+  .logo {
+    font-size: 35px;:
+    font-weight: bold;
+  
+    color:black(255, 255, 255, 0);
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+    
+  }
+  nav li{
+    display: inline-block;
+    padding: 0px 20px;
+   
+    
+    
+  }
+  a,button {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color:black;
+    cursor: pointer;
+  
+    
+  }
+  button {
+    background-color:rgba(249, 11, 11, 0.798);
+    
+    
+    padding: 9px 25px;
+    border:2px solid #fd5e53;
+    border-radius: 50px;
+    
+  }
+  nav li a:hover {
+    color: #fd5e53;
+    transition: all 0.4s ease 0s;
+  }
+  button:hover {
+    background-color: #a9001ccc;
+    transition: all 0.4s ease 0s;
+  } 
+  nav li a {
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+  .image-content img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  #WELCOME{
+    text-align: center;
+    /* font-weight:bold; */
+    font-weight:bold;
+    font-family: justify;
+    margin-top: 60px;
+    /* padding-top:25px;
+    padding-bottom:25px; */
+    text-transform:capitalize;
+    font-size:45px;
+
+
+  }
+  #shivam{
+    margin-top:520px;
+    padding-left :500px;
+    color:rgba(255, 0, 51, 0.807);
+    font-weight:bolder;
+    
+
+  }

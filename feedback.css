@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Original color */
+}
+
+header {
+    background-color: rgb(203, 23, 86); /* Light green color */
+    color: #333; /* Darker text color */
+    text-align: center;
+    padding: 1em;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sign-links a {
+    color: #333; /* Darker text color */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em; /* Increased font size */
+}
+
+.sign-links a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: rgb(214, 52, 111), 143, 165); /* Light green color */
+    color: #000; /* Black text color for visibility */
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    color: #000; /* Black text color for visibility */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold; /* Added to make the navigation links more visible */
+    font-size: 1.2em; /* Increased font size */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Center-align the heading and paragraph in the main content */
+.main-content h2,
+.main-content h3 {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(214, 52, 111); /* Light green color */
+    color: #333; /* Darker text color */
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.feedback-form{
+        border: 10px solid black;
+        border-bottom-width:3px;
+        text-align: center;
+
+        
+}
+#submit{
+    margin-top:20px;
+    line-height: 30px;
+}
+#101{
+    padding-top:10px;
+}
+#102{
+    padding-top:10px ;
+}
+#30{
+    text-align: left;
+ background-color: red;
+    padding-left: 0%;
+}

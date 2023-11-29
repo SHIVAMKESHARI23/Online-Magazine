@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Background color */
+}
+
+header {
+    background-color:rgba(255, 0, 55, 0.995); /* Header background color */
+    color: #333; /* Header text color */
+    text-align: center;
+    padding: 1em;
+}
+
+.about-us-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Content background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color:rgba(255, 0, 55, 0.995);/* Footer background color */
+    color: #333; /* Footer text color */
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

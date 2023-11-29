@@ -1,0 +1,49 @@
+.header {
+    background-color: firebrick;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+  
+  .header-right {
+    float: right;
+    
+    
+  }
+  
+  .header a {
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+   
+  }
+  
+  header {
+    margin-top: auto;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: rgba(255, 0, 0, 0.759);  
+  }
+  h1 {
+    font-size: 220%;
+    text-shadow: 1px 1px 1px #FF0000;
+    font-weight:bold;
+  }
+  body {
+    background-image: url("https://img.freepik.com/free-photo/perspective-exterior-nobody-empty-box_1258-260.jpg?w=1060&t=st=1698128154~exp=1698128754~hmac=f1e1b6b2d82a7f5df7ebd39ab4c26fee426be66536a49a937a322ad3c2c7172c");
+  
+  }
+  
+  .footer {
+    background-color:#000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+  }

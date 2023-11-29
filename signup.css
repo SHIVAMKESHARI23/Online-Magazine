@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+    font-weight: bolder;
+    font-family:justify;
+   line-height:20px;
+    margin-top:20px;
+}
+.bo{
+    border: 10px solid rgba(255, 0, 0, 0.182);
+    
+}
+#submit{
+    margin-top:20px;
+    line-height: 30px;
+}
+#101{
+    padding-top:10px;
+}
+#102{
+    padding-top:10px ;
+}
+
+
